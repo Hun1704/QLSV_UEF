@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="HocPhan_.UpdateHHocphanActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="97dp"
+        android:background="@color/lavender"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="114dp"
+            android:layout_marginTop="28dp"
+            android:text="Quản lí Học Phần"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="287px"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/labelMahp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã học phần: "
+                android:textColor="#040303"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mahocphan_sua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã học phần"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/labelTenhp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên học phần: "
+                android:textColor="#040303"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tenhocphan_sua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên học phần"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/labelSotiet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số tiết: "
+                android:textColor="#040303"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/sotiet_sua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số tiết"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:gravity="center"
+            android:layout_marginTop="240dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sua_hp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:layout_weight="1"
+                android:text="Sửa" />
+
+            <Button
+                android:id="@+id/xoa_hp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:layout_weight="1"
+                android:text="Xóa" />
+
+            <Button
+                android:id="@+id/back3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:layout_weight="1"
+                android:text="Quay lại" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

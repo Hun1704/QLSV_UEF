@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">qlmh</string>
+    <string name="log_out">Đăng xuất</string>
+    <string-array name="type_array">
+        <item>Gửi cho sinh viên</item>
+        <item>Gửi cho giáo viên</item>
+    </string-array>
+</resources>
